@@ -1,0 +1,7 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=your-password      #password should be greater than 8 characters
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
